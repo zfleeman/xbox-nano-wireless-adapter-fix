@@ -17,7 +17,7 @@ Write-Host "Python $ver found."
 
 # 2. ViGEmBus creates the virtual Xbox 360 controllers. Install it yourself first, so you choose the version.
 if (-not (Get-Service ViGEmBus -ErrorAction SilentlyContinue)) {
-    throw "ViGEmBus isn't installed. Install ViGEmBusSetup_x64.msi from https://github.com/nefarius/ViGEmBus/releases/tag/v1.21.442.0 and run this again."
+    throw "ViGEmBus isn't installed. Install ViGEmBus_1.22.0_x64_x86_arm64.exe from https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0 and run this again."
 }
 Write-Host "ViGEmBus found."
 
