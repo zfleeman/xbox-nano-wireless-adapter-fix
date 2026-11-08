@@ -1,0 +1,6 @@
+line-length = 120
+
+[lint]
+# Deliberate patterns in a driver: broad excepts keep it running through cleanup errors, unpacked names document
+# protocol fields, and the test fakes use class-level defaults.
+ignore = ["BLE001", "S110", "RUF059", "RUF012"]

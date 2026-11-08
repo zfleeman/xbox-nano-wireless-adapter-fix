@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+xdongle.log*
+# Microsoft firmware, copied from the Windows driver store at first run. Never commit it.
+xdongle/firmware/
+# Diagnostic output from capture-gip-trace.ps1
+gip-*.etl
+gip-*.xml
+xboxgip-reg-*.reg
+pnp-*.txt
+.ruff_cache/
